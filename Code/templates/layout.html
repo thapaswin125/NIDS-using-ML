@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>Intrusion</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+<body data-load="1723728383">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-blue w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="home" class="w3-bar-item w3-button w3-blue-gray">Home</a>
+  <a href="train" class="w3-bar-item w3-button w3-blue-gray">Train Model</a>
+  <a href="input" class="w3-bar-item w3-button w3-blue-gray">Test Packect</a>
+
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1>Network Intrusion Detection Using Machine Learning</h1>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+
+<!-- Footer-->
+<div class="w3-container w3-teal">
+  <div class="w3-container w3-cell w3-mobile" style="width:80%">
+    <h5><b>Developed By</b></h5>
+    <div class="w3-container w3-cell">
+      <p><b>K.Thapaswin Reddy</p>
+      <p>Durga Sandeep Pavan</b></p>
+    </div>
+  </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <h5><b>Guided By</h5>
+    <p>Mr.Arsalan Ahmed Alyas </b></p>
+  </div>
+  </div>
+
+</div>
+      
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="static/js/ml.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $().jqLoad();
+    });
+</script>
+</html>
