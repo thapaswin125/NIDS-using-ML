@@ -70,7 +70,7 @@ We used the **NSL-KDD dataset**, which contains four categories of attacks:
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/thapaswin125/network-ids-ml.git
+git clone https://github.com/thapaswin125/NIDS-using-ML.git
 cd network-ids-ml
 ```
 
