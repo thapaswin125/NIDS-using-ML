@@ -140,11 +140,6 @@ DTC_Classifier.fit(X_train, Y_train)
 
 ---
 
-## 📷 Screenshots / Results  
-(Add GUI screenshots, accuracy graphs, confusion matrices here)  
-
----
-
 ## ✅ Conclusion  
 This IDS highlights how **machine learning techniques** can strengthen cybersecurity. While it does not completely prevent intrusions, it equips administrators with powerful tools to **detect, classify, and mitigate threats** efficiently.  
 
